@@ -1,4 +1,4 @@
-[![SQA badge](https://api.eu.badgr.io/public/assertions/wfj1s7HdT8mcCqhWPb1HTw/image)](https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ)
+[![SQA badge](https://api.eu.badgr.io/public/assertions/RY4vwcAcRSqEaEvsKbSC9Q/image)](https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw)
 
 [![Build Status](https://jenkins.cessda.eu/buildStatus/icon?job=cessda.cdc.fuji.runner%2Fmain)](https://jenkins.cessda.eu/job/<JENKINS JOB NAME>/job/main/)
 [![Bugs](https://sonarqube.cessda.eu/api/project_badges/measure?project=<SONAR-PROJECT-ID>&metric=bugs)](https://sonarqube.cessda.eu/dashboard?id=<SONAR-PROJECT-ID>)
