@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Searchkit will be documented in this file.
+All notable changes to Twitter API Stats will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - *Fixed (for any bug fixes)*
 - *Security (in case of vulnerabilities)*
 
-## [0.1.0] - UNRELEASED
+## [0.5.0] - UNRELEASED
 
 ### Added
 
@@ -27,3 +27,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 ### Security
+
+## [0.4.0] - 22/12/2022
+
+### Added
+
+Initial release, based on Python code and documentation provided by Yevhen Voronin of GESIS.
