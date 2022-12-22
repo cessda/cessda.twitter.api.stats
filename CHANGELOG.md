@@ -20,6 +20,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
+Updated citation and contributors details.
+README file now links to SQAaaS silver badge.
+
 ### Deprecated
 
 ### Removed
