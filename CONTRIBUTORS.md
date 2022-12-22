@@ -1,4 +1,4 @@
-# CESSDA.CDC.SEARCHKIT v2.3.0
+# cessda.twitter.api.stats
 
 ## Contributors
 

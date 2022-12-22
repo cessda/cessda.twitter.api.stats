@@ -13,7 +13,7 @@
 [![Technical Debt](https://sonarqube.cessda.eu/api/project_badges/measure?project=<SONAR-PROJECT-ID>&metric=sqale_index)](https://sonarqube.cessda.eu/dashboard?id=<SONAR-PROJECT-ID>)
 [![Vulnerabilities](https://sonarqube.cessda.eu/api/project_badges/measure?project=<SONAR-PROJECT-ID>&metric=vulnerabilities)](https://sonarqube.cessda.eu/dashboard?id=<SONAR-PROJECT-ID>)
 
-# CESSDA REPOSITORY NAME
+# CESSDA Twitter API stats
 
 This repository contains the source code for  gathering statistics about CESSDA-related tweets.
 
