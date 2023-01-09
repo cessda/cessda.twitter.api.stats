@@ -34,9 +34,6 @@
 ehthumbs.db
 Thumbs.db
 
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
 ### STS ###
 .apt_generated
 .classpath
@@ -59,5 +56,13 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-.vscode/
 bin/
+
+### Visual Studio ###
+.vs/
+.vscode/
+*.pyproj
+*.sln
+
+### Python Virtual Environment ###
+env/
