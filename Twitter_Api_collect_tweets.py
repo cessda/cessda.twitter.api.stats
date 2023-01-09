@@ -39,21 +39,52 @@ https://developer.twitter.com/en/docs/twitter-api/v1/data-dictionary/object-mode
 # coding: utf-8
 
 #Importing libraries
+import argparse
 import tweepy as tweepy #import tweepy library
 from tweepy import *
 import pandas as pd #import pandas
 import re #import re
 import datetime
 
+def read_arguments():
+    parser = argparse.ArgumentParser(
+        description="A tool to gather Twitter statistics and convert them into CSV"
+    )
+
+    parser.add_argument(
+        "--consumer-key", dest="consumer_key",
+        help=("Twitter API consumer key")
+    )
+
+    parser.add_argument(
+        "--consumer-secret", dest="consumer_secret",
+        help="Twitter API consimer secret"
+    )
+
+    parser.add_argument(
+        "--access-key", dest="access_key",
+        help="Twitter API access key"
+    )
+
+    parser.add_argument(
+        "--access-secret", dest="access_secret",
+        help="Twitter API access secret"
+    )
+
+    return parser.parse_args()
+
+options = read_arguments()
+
 ######### Part 1: Authentication and settings #########
  #Twitter Auth Data
-consumer_key = "<consumer_key>"
-consumer_secret = "<consumer_secret>"
-access_key= "<access_key>"
-access_secret = "<access_secret>"
-#Getting Acess to Twitter
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_key, access_secret)
+consumer_key = options.consumer_key
+consumer_secret = options.consumer_secret
+access_key= options.access_key
+access_secret = options.access_secret
+#Getting Access to Twitter
+auth = tweepy.OAuth1UserHandler(
+    consumer_key, consumer_secret, 
+    access_key, access_secret)
 api = tweepy.API(auth,wait_on_rate_limit=True)
 print("Access is granted")
 #Define username and max number of tweets
