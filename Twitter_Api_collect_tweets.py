@@ -1,5 +1,5 @@
 '''
-Copyright CESSDA ERIC 2017-2022
+Copyright CESSDA ERIC 2017-2023
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not
 use this file except in compliance with the License.
@@ -52,22 +52,22 @@ def read_arguments():
     )
 
     parser.add_argument(
-        "--consumer-key", dest="consumer_key",
+        "--consumer-key", dest="consumer_key", required=True,
         help=("Twitter API consumer key")
     )
 
     parser.add_argument(
-        "--consumer-secret", dest="consumer_secret",
+        "--consumer-secret", dest="consumer_secret", required=True,
         help="Twitter API consimer secret"
     )
 
     parser.add_argument(
-        "--access-key", dest="access_key",
+        "--access-key", dest="access_key", required=True,
         help="Twitter API access key"
     )
 
     parser.add_argument(
-        "--access-secret", dest="access_secret",
+        "--access-secret", dest="access_secret", required=True,
         help="Twitter API access secret"
     )
 
